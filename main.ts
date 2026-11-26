@@ -3,7 +3,7 @@
 // strategy.ts; the protocol shim is the vendored kit SDK in
 // vendor/makefun-bot.ts.
 
-import { runBot } from './vendor/makefun-bot.ts';
+import { runBot } from './vendor/agentfun-bot.ts';
 import { createStrategy, DEFAULT_PARAMS } from './strategy.ts';
 
 const strategy = createStrategy(DEFAULT_PARAMS);
